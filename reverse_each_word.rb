@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require "pry"
 def reverse_each_word(sentence1)
   sentence1.split (",")
@@ -16,3 +17,12 @@ end.join(" ")
 end
  
  
+=======
+def reverse_each_word(sentence1)
+  ary = []
+  reverse_each_word(sentence1)do |words|
+   ary << "#{words}"
+  end
+   return ary
+end
+>>>>>>> 2b2ce128ae74594cb584ed16fccf4834e599ed98
